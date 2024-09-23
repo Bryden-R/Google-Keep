@@ -1,16 +1,99 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./assets/css/styles.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0"
+    />
+
+    <link rel="stylesheet" href="./assets/css/styles.css" />
     <title>Google Keep</title>
-</head>
-<body>
+  </head>
+  <body>
+    <!-- Nav Start -->
+    <div class="nav">
+      <div class="nav-left">
+        <div class="logo-menu">
+          <span class="material-symbols-outlined nav-icon menu-icon">
+            menu
+          </span>
+          <img
+            class="logo"
+            src="https://www.gstatic.com/images/branding/product/1x/keep_2020q4_48dp.png"
+            alt="Logo"
+          />
+          <p class="logo-text">Keep</p>
+        </div>
+        <div class="search-area">
+          <form>
+            <button>
+              <span class="material-symbols-outlined search-icon">
+                search
+              </span>
+            </button>
+            <input type="text" placeholder="Search" />
+            <button>
+              <span class="material-symbols-outlined search-icon"> close </span>
+            </button>
+          </form>
+        </div>
+      </div>
 
+      <div class="nav-right">
+        <div class="icons">
+          <span class="material-symbols-outlined nav-icon"> refresh </span>
+          <span class="material-symbols-outlined nav-icon"> view_agenda </span>
+          <span class="material-symbols-outlined nav-icon"> settings </span>
+        </div>
+        <div class="apps-profile">
+          <span class="material-symbols-outlined nav-icon"> apps </span>
 
+          <div class="google-profile">
+            <img
+              class="google-logo"
+              src="https:www.google.com/u/0/ac/images/logo.gif?uid=107367971584941740734&amp;service=google_black"
+              alt="google logo"
+            />
+            <span class="material-symbols-outlined nav-icon profile-icon">
+              account_circle
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
 
+    <!-- Main Container -->
+    <div class="container">
+      <!-- Sidebar Container -->
+      <div class="sidebar">
+        <div class="sidebar-item">
+          <span class="material-symbols-outlined sidebar-icon"> lightbulb </span>
+          <span class="sidebar-text">Notes</span>
+        </div>
+        <div class="sidebar-item">
+          <span class="material-symbols-outlined sidebar-icon"> notifications </span>
+          <span class="sidebar-text">Reminders</span>
+        </div>
+        <div class="sidebar-item">
+          <span class="material-symbols-outlined sidebar-icon"> edit </span>
+          <span class="sidebar-text">Edit Lables</span>
+        </div>
+        <div class="sidebar-item">
+          <span class="material-symbols-outlined sidebar-icon"> archive </span>
+          <span class="sidebar-text">Archive</span>
+        </div>
+        <div class="sidebar-item">
+          <span class="material-symbols-outlined sidebar-icon"> delete </span>
+          <span class="sidebar-text">Trash</span>
+        </div>
+      </div>
 
+      <!-- Content Container -->
+      <div class="main-content"></div>
+    </div>
+    <!-- Script -->
     <script src="./assets/js/script.js"></script>
-</body>
+  </body>
 </html>
